@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+	<title>Portfolio Page</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"><img class="title-logo" src="images/blogo.png" alt="Picture/logo">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="title-super text-thin">Brett Lyons</h1>
+				<h3>Human Being</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+			<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<img class="img-responsive" src="http://placekitten.com/1000/350" alt="Big Picture of Kitten">
+			</div>
+		</div>
+		<div class="row">
+			<h2 class="text-muted">Featured Work</h2>
+		</div>
+		<div class="row text-center text-uppercase">
+			<div class="col-md-4">
+				<img class="img-responsive" src=http://placekitten.com/g/300/205 data-toggle="modal" data-target="#project1" alt="Kitten 1">
+				<h3>Kitten #1</h3>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive" src=http://placekitten.com/g/300/205 alt="Kitten 2">
+				<h3>Hello World!</h3>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive" src=http://placekitten.com/g/300/205 alt="Kitten 3">
+				<h3>Meow!<sup>3</sup></h3>
+			</div>
+		</div>
+		<div class="row">
+		<h2 class="text-muted">Misc.</h2>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4">
+			<h3>PKGBUILDs for Arch Linux</h3>
+			<a href="https://github.com/brettlyons/pkgbuilds-nine">PKGBUILDS to build Gallium 9 State Tracker and Wine on Arch Linux</a>
+			</div>
+			<div class="col-md-4">
+			<h3>Project Euler</h3>
+			<img class="img" src="https://projecteuler.net/profile/blyons.png" alt="Project Euler finished projects stamp"></img>
+			</div>
+		</div>
+	</div>
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	   	<div class="modal-content">
+	     		<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">All the feels.</h4>
+			</div>
+		<div class="modal-body">
+	        <img class="img-responsive" src="http://placekitten.com/g/600/600" alt="Human hand holding small kitten">
+			This was my first project in this class. I learned a lot about HTML and CSS. Isn't this kitten adorable?  The link underneath is to a set of Arch Linux PKGBUILDs I built, maintained and supported for the developers of the Gallium 9 State Tracker project.
+	        </div>
+	        <div class="modal-footer">
+	   	  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
